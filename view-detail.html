@@ -1,0 +1,45 @@
+<div class="form-group">
+  <label for="txtName">Artist Name:</label>
+  <input type="text" id="txtName" class="form-control" data-ng-model="Item.name">
+</div>
+
+<div class="form-group">
+  <label for="cboGenre">Genre:</label>
+  <select name="cboGenre" id="cboGenre" class="form-control" data-ng-model="Item.genre">
+    <option value="New Wave">New Wave</option>
+    <option value="Rock">ROCK</option>
+    <option value="Alternative">Alternative</option>
+    <option value="Rap">Rap</option>
+    <option value="Classic">Classic</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="cboRating">Artist Rating:</label>
+  <select name="cboRating" id="cboRating" class="form-control" data-ng-model="Item.rating">
+    <option value=1>1</option>
+    <option value=2>2</option>
+    <option value=3>3</option>
+    <option value=4>4</option>
+    <option value=5>5</option>
+  </select>
+</div>
+
+
+<div class="form-group">
+  <label for="cboYear">Year:</label>
+  <select name="cboYear" id="cboYear" class="form-control" data-ng-model="Item.year">
+    <option value=1987>1987</option>
+    <option value=1988>1988</option>
+    <option value=1989>1989</option>
+    <option value=1998>1998</option>
+    <option value=2001>2001</option>
+    <option value=2005>2005</option>
+  </select>
+</div>
+
+<div>
+  <button class="btn btn-primary" data-ng-click="save()">Save</button>
+  <button class="btn btn-primary" data-ng-click="cancel()">Cancel</button>
+
+</div>

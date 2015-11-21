@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html data-ng-app="musicApp">
+
+  <head>
+    <link data-require="bootstrap@3.3.5" data-semver="3.3.5" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script data-require="bootstrap@3.3.5" data-semver="3.3.5" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script data-require="angular.js@~1.4.3" data-semver="1.4.6" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="//code.angularjs.org/1.3.0-beta.13/angular-route.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>-->
+    <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>
+            <span class="glyphicon glyphicon-headphones hidden-xs"></span>
+ Music Artists</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div data-ng-view></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

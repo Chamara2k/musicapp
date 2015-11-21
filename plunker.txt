@@ -1,0 +1,11 @@
+plunker (plnkr.co)
+
+bootswatch
+
+https://www.youtube.com/watch?v=LXfVHrdqj7I
+
+
+https://bootswatch.com/
+
+
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_regiis.exe -i
